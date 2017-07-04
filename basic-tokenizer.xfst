@@ -1,0 +1,16 @@
+# -*- encoding: utf-8 -*-
+clear
+list AccentedLetter "\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF" ;
+define Letter [ alnum | AccentedLetter | %- ] ;
+define Word [ Letter + ] ;
+define Token [ Word | delim + ] ;
+define Whitespace [ space + ] ;
+define CollapseWhitespace [ Whitespace @-> "\n" ] ;
+define DelimitToken [ Token @-> ... "\n" ] ;
+define TokenBoundary ["\n" -> %@] ;
+define Tokenize [ DelimitToken .o. CollapseWhitespace .o. TokenBoundary ] ;
+regex DownCase(Tokenize,L) ;
+invert net
+up La   fée cherche                         la            dame.
+up La reine voit le géant au-delà du pont.
+save stack basic-tokenizer.fst

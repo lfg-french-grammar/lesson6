@@ -1,0 +1,45 @@
+# SENTENCE_ID: 001
+
+La fée est attendue par le chevalier. (1 0.01 42)
+
+# SENTENCE_ID: 002
+
+Il est attendu par la dame. (1 0.00 31)
+
+# SENTENCE_ID: 003
+
+La fée est attendue. (1 0.02 24)
+
+# SENTENCE_ID: 004
+
+Le chevalier est attendu. (1 0.00 24)
+
+# SENTENCE_ID: 005
+
+La bague est donnée à la dame par la fée. (1 0.01 57)
+
+# SENTENCE_ID: 006
+
+Les bagues sont données à la dame. (1 0.00 42)
+
+# SENTENCE_ID: 007
+
+Le chevalier regarde la forêt habitée par les fées. (1 0.01 48)
+
+# SENTENCE_ID: 008
+
+Le chevalier regarde le château blanc habité par la reine. (1 0.02 52)
+
+# SENTENCE_ID: 009
+
+Le chevalier a attendu. (1 0.00 24)
+
+# SENTENCE_ID: 010
+
+La fée est arrivée. (1 0.00 17)
+
+# SENTENCE_ID: 011
+
+Les fées sont arrivées. (1 0.01 17)
+
+# 11 sentences, 0.08 CPU secs total, 0.02 CPU secs max (06/02/16)
